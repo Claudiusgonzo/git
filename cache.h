@@ -1049,6 +1049,7 @@ struct repository_format {
 	int worktree_config;
 	int is_bare;
 	int hash_algo;
+	int has_extensions;
 	char *work_tree;
 	struct string_list unknown_extensions;
 };
